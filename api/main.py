@@ -4,6 +4,7 @@ import joblib
 import numpy as np
 import pandas as pd
 import os
+from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI()
 modelPath = os.path.join(os.path.dirname(__file__), 'math_score_model.pkl')
@@ -35,6 +36,15 @@ def predict_math_score(data: StudentData):
     # Make predictions
     predictions = model.predict(input_data)
     return predictions[0]
+
+# CORS middleware to allow requests from any origin
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 @app.post("/predict")
 def predict(data: StudentData):
