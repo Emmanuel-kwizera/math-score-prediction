@@ -28,7 +28,19 @@ math-score-prediction/
 
 ---
 
-## Features Covered by Each Task
+### Video Demonstration
+
+- **YouTube Video Link**: [https://youtu.be/tFUUrJ0zOT8](https://youtu.be/tFUUrJ0zOT8)
+- Covers:
+  - Mobile app prediction
+  - Swagger UI testing with valid/invalid data
+  - Flutter API call code
+  - Notebook walkthrough
+  - Model performance comparison and justification
+
+---
+
+## Features Covered
 
 ### Linear Regression
 
@@ -69,18 +81,6 @@ math-score-prediction/
   - Displays predicted math score
   - Shows error if there is one
 - Organized layout with proper alignment and spacing
-
-### Task 4: Video Demonstration
-
-- **YouTube Video Link**: [https://youtu.be/tFUUrJ0zOT8](https://youtu.be/tFUUrJ0zOT8)
-- Covers:
-  - Mobile app prediction
-  - Swagger UI testing with valid/invalid data
-  - Flutter API call code
-  - Notebook walkthrough
-  - Model performance comparison and justification
-
----
 
 ## How to Run the Mobile App
 
