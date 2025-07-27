@@ -26,8 +26,6 @@ math-score-prediction/
 ├── requirements.txt                        # Python dependencies for deployment
 ```
 
----
-
 ### Video Demonstration
 
 - **YouTube Video Link**: [https://youtu.be/tFUUrJ0zOT8](https://youtu.be/tFUUrJ0zOT8)
@@ -81,6 +79,8 @@ math-score-prediction/
   - Displays predicted math score
   - Shows error if there is one
 - Organized layout with proper alignment and spacing
+
+---
 
 ## How to Run the Mobile App
 
