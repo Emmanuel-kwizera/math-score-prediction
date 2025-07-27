@@ -72,7 +72,7 @@ math-score-prediction/
 
 ### Task 4: Video Demonstration
 
-- **YouTube Video Link**: [https://youtu.be/](https://youtu.be/)
+- **YouTube Video Link**: [https://youtu.be/tFUUrJ0zOT8](https://youtu.be/tFUUrJ0zOT8)
 - Covers:
   - Mobile app prediction
   - Swagger UI testing with valid/invalid data
